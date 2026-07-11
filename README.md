@@ -20,17 +20,6 @@ streamlit run app.py
 
 Depois abra o endereço mostrado no terminal, geralmente `http://localhost:8501`.
 
-## Logo
-
-Coloque sua logo em `assets/` com um destes nomes:
-
-- `logo.png`
-- `logo.svg`
-- `logo.jpg`
-- `logo.jpeg`
-- `logo.webp`
-
-O app detecta automaticamente e mostra a logo no topo e na lateral.
 
 ## Atalho no Mac
 
@@ -58,23 +47,6 @@ RUN_MMTOOLS.command
 cd mmtools-audio
 python3 -m pytest tests -q
 ```
-
-## Publicar no GitHub
-
-Veja o passo a passo curto em [`docs/GITHUB_STEPS.md`](docs/GITHUB_STEPS.md).
-
-## Subir no GitHub
-
-```bash
-git init
-git add .
-git commit -m "Initial MMTools release"
-git branch -M main
-git remote add origin https://github.com/SEU-USUARIO/mmtools.git
-git push -u origin main
-```
-
-Antes do `git add .`, confirme que seus áudios pessoais e relatórios locais não entraram. O `.gitignore` já ignora `.wav`, `.aif`, `.aiff` e pastas de relatório.
 
 ## Aviso
 
