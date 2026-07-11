@@ -1,0 +1,27 @@
+.DS_Store
+._*
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local audio files and generated reports
+*.wav
+*.aif
+*.aiff
+*_report/
+test_report/
+reports/
+docs/archive/
+
+# Keep asset instructions, but allow a committed logo.
+!assets/README.md
+!assets/logo.png
+!assets/logo.svg
+!assets/logo.jpg
+!assets/logo.jpeg
+!assets/logo.webp
